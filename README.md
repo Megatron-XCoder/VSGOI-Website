@@ -1,6 +1,9 @@
 # VSGOI Learning Management System (LMS) and Website
 
-Welcome to the VSGOI LMS and Website project. This application is a comprehensive and fully functional Learning Management System designed and developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The LMS aims to facilitate educational activities, providing a seamless interface for students and educators to manage learning resources, courses, and communications.
+Welcome to the VSGOI LMS and Website project. This application is a comprehensive and fully functional Learning 
+Management System designed and developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The LMS aims 
+to facilitate educational activities, providing a seamless interface for students and educators to manage learning 
+resources, courses, and communications.
 
 ## Table of Contents
 
@@ -15,7 +18,9 @@ Welcome to the VSGOI LMS and Website project. This application is a comprehensiv
 
 ## About the Project
 
-VSGOI LMS and Website is a robust platform designed to cater to the needs of students and educators by offering features such as course management, resource sharing, user authentication, and more. The system is built to provide a smooth and efficient user experience, leveraging the power of modern web technologies.
+VSGOI LMS and Website is a robust platform designed to cater to the needs of students and educators by offering 
+features such as course management, resource sharing, user authentication, and more. The system is built to provide 
+a smooth and efficient user experience, leveraging the power of modern web technologies.
 
 ## Features
 
@@ -69,15 +74,7 @@ To get a local copy up and running, follow these simple steps:
    npm install
    ```
 
-4. **Configure Environment Variables :**
-    - Create a .env file in the backend directory and add your MongoDB URI, JWT secret, and other environment 
-   variables
-   ```bash
-   MONGO_URI=your-mongodb-uri
-   JWT_SECRET=your-jwt-secret
-   ```
-
-5. **Start the Application**
+4. **Start the Application**
     - Open two terminal windows. In one terminal, start the backend server :
    ```bash
    cd ../vsgoi-website
@@ -89,3 +86,32 @@ To get a local copy up and running, follow these simple steps:
    cd ../backend-code
    npm run dev
    ```
+
+5. **Build Tailwind CSS:**
+    - If the project requires building the CSS files, run the build command specified in the project's documentation or package.json scripts. This usually involves a command like:
+
+   ```bash
+   npm run build
+   ```
+   
+## Usage
+
+Once the servers are running, open your web browser and navigate to http://localhost:3000 to access the application. You can register as a new user or log in if you already have an account.
+
+## Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/NewFeature)
+- Commit your Changes (git commit -m 'Add some New Feature')
+- Push to the Branch (git push origin feature/NewFeature)
+- Open a Pull Request
+
+
+## License
+- This project is licensed under the MIT License. See the LICENSE file for more information.
+
+## Contact
+For any inquiries or feedback, feel free to reach out:
+- Sanjeev Kumar Das(Author) - crisiscrush525@gmail.com
+- Project Link: https://github.com/your-username/vsgoi-lms

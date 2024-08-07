@@ -27,7 +27,7 @@ function SignupPage() {
         setSuccess(null);
 
         try {
-            await axios.post('http://localhost:3000/signup', formData);
+            await axios.post('https://vsgoi-website.onrender.com/signup', formData);
             setSuccess('User created successfully');
         } catch (error) {
             if (error.response && error.response.data && error.response.data.message) {

@@ -15,7 +15,7 @@ function LandingPage() {
                 </h1>
                 <FooterButtonGroup/>
             </div>
-            <div className="absolute inset-0 bg-school-image h-full bg-black bg-opacity-50 backdrop-blur-sm bg-cover bg-center filter brightness-50"></div>
+            <div className="absolute inset-0 h-full bg-black bg-opacity-50 backdrop-blur-sm bg-cover bg-center filter brightness-50" style={{ backgroundImage: "url('background.jpg')" }}></div>
         </div>
     );
 }

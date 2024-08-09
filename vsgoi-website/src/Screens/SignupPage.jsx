@@ -39,7 +39,7 @@ function SignupPage() {
     };
 
     return (
-        <div className="relative h-screen w-full flex items-center justify-center bg-signup-image bg-cover bg-center">
+        <div className="relative h-screen w-full flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('SignupPageBackground.jpg')" }}>
             {error && <ErrorPopup message={error} />}
             {success && <SuccessPopup message={success} />}
             <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>

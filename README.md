@@ -5,6 +5,8 @@ Management System designed and developed using the MERN (MongoDB, Express.js, Re
 to facilitate educational activities, providing a seamless interface for students and educators to manage learning 
 resources, courses, and communications.
 
+<img align="center" alt="Sample Preview" src="vsgoi-website/public/ReadmeBackground.png">
+
 ## Table of Contents
 
 - [About the Project](#about-the-project)
@@ -114,4 +116,4 @@ Contributions are what make the open-source community such an amazing place to l
 ## Contact
 For any inquiries or feedback, feel free to reach out:
 - Sanjeev Kumar Das(Author) - crisiscrush525@gmail.com
-- Project Link: https://github.com/your-username/vsgoi-lms
+- Project Link: https://github.com/Megatron-XCoder/VSGOI-Website
